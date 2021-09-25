@@ -66,6 +66,8 @@ Save as > menjadi file .zip yaitu ```Real.zip``` > buka ```file Real.pdf```
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%207d.jpg) <br />
 
 ## Soal 8 : Cari paket yang menunjukan pengambilan file dari FTP tersebut!
+Display Filter : ```ftp.request.command == RETR``` 
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%208.png) <br />
 
 ## Soal 9 : Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 
@@ -85,7 +87,12 @@ Pilih bar paling atas > klik kanan > pilih ```Follow > TCP Stream``` > muncul se
 Setelah mendapat password, tinggal dibuka file secret.zip > wanted.pdf dengan password diatas.
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2010f.jpg) <br />
 
-## Soal 11 : Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! Pada Capture Filter: src port 80
+## Soal 11 : Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+Capture filter : ```src port 80```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2011a.png) <br />
+Klik enter -> maka akan muncul paket-paket yang berasal dari port 80
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2011b.png) <br />
+
 
 ## Soal 12 : Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
@@ -94,6 +101,10 @@ Filter Capture : ```dst port 443```
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2013.jpg) <br />
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2013b.jpg) <br />
 
-## Soal 14 : Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id! Pada Capture Filter: dst host kemenag.go.id
+## Soal 14 : Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id! 
+Capture Filter: ```dst host kemenag.go.id```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2014a.png) <br />
+Klik enter -> maka akan muncul paket-paket yang tujuannya ke ```kemenag.go.id```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2014b.png) <br />
 
 ## Soal 15 : Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
