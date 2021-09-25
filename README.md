@@ -33,17 +33,26 @@ Display Filter : ```mysql.query contains "INSERT"```
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%205a.png) <br />
 Klik kanan pada paket yang ada -> klik "Follow" -> klik "TCP Stream"
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%205b.png) <br />
-Terlihat username: "akakanomi" dan password: "pemisah4lautan"
+Terlihat username: ```akakanomi``` dan password: ```pemisah4lautan```
+
 Login ke portal.ichimarumaru.tech dengan username dan password tadi. Dan ikuti instruksi yang ada.
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%205c.png) <br />
 Instruksi: Masukan konfigurasi pengkabelan T568B
+
 Urutan ke 1 : Putih Orange RD+ (data terima+)
+
 Urutan ke 2 : Orange RD- (data terima-)
+
 Urutan ke 3 : Putih Hijau TD+ (data kirim +)
+
 Urutan ke 4 : Biru NC (tidak dipakai)
+
 Urutan ke 5 : Putih Biru NC (tidak dipakai)
+
 Urutan ke 6 : Hijau TD- (data kirim -)
+
 Urutan ke 7 : Putih Coklat NC (tidak dipakai)
+
 Urutan ke 8 : Coklat NC (tidak dipakai)
 
 ## Soal 6 : Cari username dan password ketika melakukan login ke FTP Server!
