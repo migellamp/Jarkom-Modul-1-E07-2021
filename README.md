@@ -11,7 +11,9 @@ Rizaldi Nur Rahman N 05111940000201
 
 ### Soal 1
 ### Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
-Display Filter : ```http.host contains "ichimarumaru.tech"``` > Pilih bar paling atas > klik kanan > pilih
+Display Filter : ```http.host contains "ichimarumaru.tech"``` 
+![alt text](https://github.com/migellamp/ss_soal1/blob/main/Screenshot%20from%202021-04-25%2018-57-39.png) <br />
+> Pilih bar paling atas > klik kanan > pilih
 Follow > TCP Stream
 
 
