@@ -21,6 +21,14 @@ Display filter: ```http.authbasic"```
 Terlihat ada 3 paket yang menggunakan basic authentication.
 
 ## Soal 3 : Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+Display filter: ```http contains “.png”```
+Kemudian pilih bar satu-satunya yang muncul, lalu lihat isi packet tersebut, tepatnya pada field “Authentication” > Credentials > klik kanan > Copy > Value
+USER : ```kuncimenujulautan```
+PASS : ```tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%203a.png)
+
+Masukkan user dan pass ke **basic.ichimarumaru.tech**, lalu ikuti instruksi di dalamnya
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%203b.png)
 
 ## Soal 4 : Temukan paket mysql yang mengandung perintah query select!
 Display Filter : ```mysql.query contains "SELECT" or mysql contains "select"``` 
@@ -56,6 +64,12 @@ Urutan ke 7 : Putih Coklat NC (tidak dipakai)
 Urutan ke 8 : Coklat NC (tidak dipakai)
 
 ## Soal 6 : Cari username dan password ketika melakukan login ke FTP Server!
+Display filter : ```ftp.request.command == USER```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%206a.png) <br />
+
+Klik kanan pada bar paling atas > ```Follow > TCP Stream```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%206b.png) <br />
+Terlihat ada ```USER : secretuser``` dan ```PASS : aku.pengen.pw.aja ```
 
 ## Soal 7 : Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 Display Filter : ```ftp-data.command contains ".zip" && ftp-data contains "Real.pdf" ``` 
@@ -70,6 +84,14 @@ Display Filter : ```ftp.request.command == RETR```
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%208.png) <br />
 
 ## Soal 9 : Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
+Display Filter : ```ftp-data.command ~ "secret.zip"```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%209a.png) <br />
+
+Pilih bar paling atas > ```Follow TCP Stream``` > ubah menjadi RAW dan Save AS menjadi ```secret.zip```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%209b.png) <br />
+
+Buka secret.zip, terdapat file ```Wanted.pdf``` sebagai berikut
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%209c.png) <br />
 
 ## Soal 10 : Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 Setelah mendapatkan file ```secret.zip``` pada soal 9, terdapat file yang terkunci yaitu bernama ```Wanted.pdf```
@@ -95,6 +117,11 @@ Klik enter -> maka akan muncul paket-paket yang berasal dari port 80
 
 
 ## Soal 12 : Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+Capture filter : ```port 21```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2012a.png) <br />
+
+Hasil
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2012b.png) <br />
 
 ## Soal 13 : Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 Filter Capture : ```dst port 443```
@@ -108,3 +135,8 @@ Klik enter -> maka akan muncul paket-paket yang tujuannya ke ```kemenag.go.id```
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2014b.png) <br />
 
 ## Soal 15 : Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+Capture filter : src ```<ip anda>```. Menggunakan ip saya : ```src 192.168.0.177```
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2015a.png) <br />
+
+haisl :
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%2015b.png) <br />
