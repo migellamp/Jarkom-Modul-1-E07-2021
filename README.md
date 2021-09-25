@@ -17,7 +17,7 @@ Dapat dilihat pada bagian server, yaitu ```Server: nginx/1.18.0 (Ubuntu)```
 
 ## Soal 2 : Temukan paket dari web-web yang menggunakan basic authentication method!
 Display filter: ```http.authbasic"``` 
-![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%20a.png) <br />
+![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%202.png) <br />
 Terlihat ada 3 paket yang menggunakan basic authentication.
 
 ## Soal 3 : Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
