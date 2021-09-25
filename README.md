@@ -35,7 +35,7 @@ Klik kanan pada paket yang ada -> klik "Follow" -> klik "TCP Stream"
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%205b.png) <br />
 Terlihat username: ```akakanomi``` dan password: ```pemisah4lautan```
 
-Login ke portal.ichimarumaru.tech dengan username dan password tadi. Dan ikuti instruksi yang ada.
+Login ke ```portal.ichimarumaru.tech``` dengan username dan password tadi. Dan ikuti instruksi yang ada.
 ![alt text](https://github.com/migellamp/Jarkom-Modul-1-E07-2021/blob/main/images/soal%205c.png) <br />
 Instruksi: Masukan konfigurasi pengkabelan T568B
 
